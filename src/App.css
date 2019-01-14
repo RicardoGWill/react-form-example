@@ -1,20 +1,50 @@
+.Horizontal-Form {
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+  padding-right: 1vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Name-Label {
+  font-size: 3vh;
+  display: flex;
+  flex-direction: row;
+  padding-right: 1vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Font-3vh {
+  font-size: 3vh;
+}
+
+.Font-2vh {
+  font-size: 2.5vh;
+  padding-top: .4vh;
+  padding-bottom: .4vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+.Name-Form {
+  margin: 2vh;
+  padding: 2vh;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 3vmin);
   color: white;
 }
 
