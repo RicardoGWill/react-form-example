@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import NameForm from './components/NameForm';
+import SimpleForm from './components/SimpleForm';
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
           </p>
         </header>
         <div className="Name-Form">
-          <NameForm/>
+          <SimpleForm/>
         </div>
       </div>
     );

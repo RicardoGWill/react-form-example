@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-class NameForm extends React.Component {
+class SimpleForm extends React.Component {
   constructor(props) {
     super(props);
 
@@ -36,10 +36,10 @@ class NameForm extends React.Component {
           </label>
           <input className="Font-2vh" type="submit" value="Submit" />
         </form>
-        <h1>You entered: {this.state.finishedValue}</h1>
+        <h1>Submitted Text: {this.state.finishedValue}</h1>
       </div>
     );
   }
 }
 
-export default NameForm;
+export default SimpleForm;
